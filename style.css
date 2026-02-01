@@ -23,7 +23,8 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    filter: drop-shadow(0 0 17px rgba(0,0,0,0.6));
+    filter: drop-shadow(10px 14px 20px rgba(94, 12, 69, 0.651));
+    
     
     width: 100%;
     max-width: 1600px;
@@ -68,15 +69,18 @@ body{
     color: rgb(255, 216, 250);
     text-align: center;
     font-size: 40px;
-    text-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
-    transform: translateY(-40%);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transform: translateY(-10%);
 }
 .container h2{
-    color: rgb(253, 129, 237);
+    /* font-family: Fredoka; */
+    color: rgb(255, 228, 251);
+    text-decoration-color: aqua;
     text-align: center;
-    font-size: 4rem;
-    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-    transform: translateY(40%);
+    font-size: 6rem;
+    text-shadow:  0 3px 4px rgb(255, 121, 244);
+    transform: translateY(20%);
+    
 }
 
 .button-1{ 
@@ -90,10 +94,10 @@ body{
  .button-1 img{
     width: 8rem;
     background-size: cover;
-    filter:drop-shadow( 0 6px 10px rgba(0, 0, 0, 0.6));
+    filter:drop-shadow( 5px 6px 6px rgba(255, 123, 213, 0.986));
 
  }
   .button-1:hover img { 
-    filter:drop-shadow( 0 8px 14px rgb(255, 0, 0));
+    filter:drop-shadow( 7px 8px 6px rgb(240, 113, 166));
     transform: scale(1.05);
   }
